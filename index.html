@@ -47,7 +47,187 @@
 
     async function shareMsg() {
       await liff.shareTargetPicker([
-       // วางโค๊ด flex
+       {
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "mega",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "text",
+              "text": "WBI SERVICE LINE FLEX MESSAGE",
+              "weight": "bold",
+              "size": "sm",
+              "color": "#FFFB00FF",
+              "align": "center",
+              "contents": []
+            }
+          ]
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://www.linkpicture.com/q/WBI-LINE-Flex-3500.jpg",
+          "size": "full",
+          "aspectRatio": "1:1"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "รายละเอียดเพิ่มเติม",
+                "uri": "https://www.webblogidea.com/line-flex-message/"
+              },
+              "style": "primary"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "text",
+              "text": "WBI SERVICE LINE FLEX MESSAGE",
+              "weight": "bold",
+              "size": "sm",
+              "color": "#FFFB00FF",
+              "align": "center",
+              "contents": []
+            }
+          ]
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://www.linkpicture.com/q/WBI-LINE-Flex-4500.jpg",
+          "size": "full",
+          "aspectRatio": "1:1"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "รายละเอียดเพิ่มเติม",
+                "uri": "https://www.webblogidea.com/line-flex-message/"
+              },
+              "style": "primary"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "text",
+              "text": "WBI SERVICE LINE FLEX MESSAGE",
+              "weight": "bold",
+              "size": "sm",
+              "color": "#FFFB00FF",
+              "align": "center",
+              "contents": []
+            }
+          ]
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://www.linkpicture.com/q/WBI-LINE-Flex-6000.jpg",
+          "size": "full",
+          "aspectRatio": "1:1"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "รายละเอียดเพิ่มเติม",
+                "uri": "https://www.webblogidea.com/line-flex-message/"
+              },
+              "style": "primary"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "text",
+              "text": "WBI SERVICE LINE FLEX MESSAGE",
+              "weight": "bold",
+              "size": "sm",
+              "color": "#FFFB00FF",
+              "align": "center",
+              "contents": []
+            }
+          ]
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://www.linkpicture.com/q/WBI-LINE-Flex-15000.jpg",
+          "size": "full",
+          "aspectRatio": "1:1"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "backgroundColor": "#050505FF",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "รายละเอียดเพิ่มเติม",
+                "uri": "https://www.webblogidea.com/line-flex-message/"
+              },
+              "style": "primary"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
       ])
     }
 
@@ -112,7 +292,7 @@
     }
 
     async function main() {
-      await liff.init({ liffId: "YOUR-LIFF-ID" })
+      await liff.init({ liffId: "1657065926-3K5Rdor5" })
       document.getElementById("isLoggedIn").append(liff.isLoggedIn())
       if (liff.isLoggedIn()) {
         getEnvironment()
